@@ -1,0 +1,44 @@
+h1 {
+}
+label {
+}
+#container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#idCont {
+    text-align: center;
+}
+#checkCont {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+#textCont {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+#selectCont {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+
+
+/* #selectCont {
+    justify-content: space-between;
+} */
