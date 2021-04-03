@@ -50,3 +50,29 @@
     justify-content: space-between;
     padding: 1px;
 }
+
+#results{
+    height:70%
+
+}
+
+#details{
+    height:70%
+}
+
+
+.row{
+    height: 97em;
+    opacity: 1.5;
+}
+
+.row div{
+    background-color: rgb(0 0 0 / 42%);
+    color: white;
+}
+
+.nav-wrapper{
+   background-color: #a17c5c;
+}
+
+
