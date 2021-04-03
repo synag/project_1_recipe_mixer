@@ -4,22 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>recipe-mixer</title>
-    <link rel="stylesheet" href="./styles/mixer.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Recipe Mixer</title>
 </head>
 <body>
-    
-
-
-
-
-
-    
-
-  
+    <style>body {background-image: url('./images/Good_Food_Display_-_NCI_Visuals_Online.jpg');}</style>
+    <div id=container>
+        <h1 id="idCont">Search for recipes below by inputting your available or desired ingredients!</h1>
+        <div id=selectCont>
+            <div id="checkCont">
+                <input type="checkbox" id="vegan" name="vegan" value="">
+                <label class="label" for="vegan">Vegan Friendly</label><br>
+                <input type="checkbox" id="vegetarian" name="vegetarian" value="">
+                <label class="label" for="vegetarian">Vegetarian Friendly</label><br>
+                <input type="checkbox" id="lowCalorie" name="Low-Calorie" value="">
+                <label class="label" for="lowCalorie">Low-Calorie</label><br>
+            </div>
+            <div id="textCont">
+                <div id=textArea1>
+                    <input type="text" id="ingredient1" name="ingredient1">
+                    <label class="label" for="ingredient1">Please add your 1st ingredient here!</label><br>
+                </div>
+                <div id=textArea2>
+                    <input type="text" id="ingredient2" name="ingredient2">
+                    <label class="label" for="ingredient2">Please add your 2nd ingredient here!</label><br>
+                </div>
+                <div id=textArea3>
+                    <input type="text" id="ingredient3" name="ingredient3">
+                    <label class="label" for="ingredient3">Please add your 3rd ingredient here!</label><br>
+                </div>
+                <div id=textArea4>
+                    <input type="text" id="ingredient4" name="ingredient4">
+                    <label class="label" for="ingredient4">Please add your 4th ingredient here!</label><br>
+                </div>
+                <div id=textArea5>    
+                    <input type="text" id="ingredient5" name="ingredient5">
+                    <label class="label" for="ingredient5">Please add your 5th ingredient here!</label><br>
+                </div>
+            </div>   
+        </div>    
+        <button id="submit" class="btn">Show me dishes!</button>    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./js/recipe_mixer.js"></script>
-    
-
 </body>
-  
 </html>
