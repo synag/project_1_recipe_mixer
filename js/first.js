@@ -16,10 +16,14 @@ $(document).ready(function() {
         for (var i = 0; i < ingredientsArray.length; i++) {
             if (!ingredientsArray[i] == "") {
                 finalIngredientsArray.push(ingredientsArray[i]);
-                console.log(ingredientsArray);
+                window.location.href = "./second.html?ingredients=" + finalIngredientsArray.join(",");
             }
+            // else {
+            //     alert ("please enter at least one applicable ingredient")
+            //     break;
+            // }      
         }
-
+      
         // if ($("#vegan").prop("checked") == true) {                               //potential future applications
         //     vegan = "vegan"
         //     console.log(vegan);
@@ -34,8 +38,6 @@ $(document).ready(function() {
         //     lowCalorie = "lowCalorie"
         //     console.log(lowCalorie);
         // }
-
-        window.location.href = "./second.html?ingredients=" + finalIngredientsArray.join(",");
 
     })
 })
