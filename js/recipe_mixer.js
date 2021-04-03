@@ -23,8 +23,8 @@ $(document).ready(function () {
             $(".img2").attr("src", (data.results[1].image));
             $(".title3").text(data.results[2].title);
             $(".img3").attr("src", (data.results[2].image))
-            $(".title4").text(data.results[2].title);
-            $(".img4").attr("src", (data.results[2].image));
+            $(".title4").text(data.results[3].title);
+            $(".img4").attr("src", (data.results[3].image));
         })
         .catch(err => {
             console.error(err);
