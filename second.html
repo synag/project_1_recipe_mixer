@@ -22,7 +22,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="sass.html">Sass</a></li>
               <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">JavaScript</a></li>
+              <li><a href="index.html">Index</a></li>
             </ul>
           </div>
         </nav>
@@ -35,40 +35,86 @@
                     <div>
                       <img class="img1"src="">
                       <p>
-                      Click button to see the recipe <a class="waves-effect waves-light btn">Open</a>
+                      Click button to see the recipe 
+                      <a class="one waves-effect waves-light btn 
+                            green darken-1 modal-trigger" 
+                            href="#demo-modal">
+                            Click Here!
+                        </a>
                       </p>
                     </div>
                     <h3 class="title2"> Recipe 2</h3>
                     <div>
                       <img class="img2"src="">
                       <p>
-                        Click button to see the recipe <a class="waves-effect waves-light btn">Open</a>
+                        Click button to see the recipe 
+                        <a class="two waves-effect waves-light btn 
+                            green darken-1 modal-trigger" 
+                            href="#demo-modal">
+                            Click Here!
+                        </a>
                       </p>
                     </div>
                     <h3 class="title3">Recipe 3</h3>
                     <div>
                       <img class="img3"src="">
                       <p>
-                        Click button to see the recipe <a class="waves-effect waves-light btn">Open</a>
+                        Click button to see the recipe 
+                        <a class="three waves-effect waves-light btn 
+                            green darken-1 modal-trigger" 
+                            href="#demo-modal">
+                            Click Here!
+                        </a>
                       </p>
                     </div>
                     <h3 class="title4">Recipe 4</h3>
                     <div>
                       <img class="img4"src="">
                       <p>
-                        Click button to see the recipe <a class="waves-effect waves-light btn">Open</a>
+                        Click button to see the recipe 
+                        <a class="four waves-effect waves-light btn 
+                            green darken-1 modal-trigger" 
+                            href="#demo-modal">
+                            Click Here!
+                        </a>
                       </p>
                     </div>
                   </div>
             </div>
+            <div id="demo-modal" class="modal">
+              <div class="modal-content">
+              <div>
+                <h6> Ingredients </h6>
+                <li id = "ingredients-list">
+                </li>
+              </div>
+              <div>
+                <h6> Instructions </h6>
+                <li id = "instructions-list">
+                </li>
+              </div>
+              </div>
+    
+              <div class="modal-footer">
+                  <a href="#!" class="modal-action 
+                      modal-close waves-effect waves-green 
+                      btn green lighten-1">
+                      Close
+                  </a>
+              </div>
+          </div>
 
-            <div class="col s8"id="details">
-            </div>
         </div>
     <!-- </div> -->
 
 
     <!-- Compiled and minified JavaScript -->
+    <script>
+      $(document).ready(function () {
+          $('#demo-modal').modal();
+      }
+      )
+  </script>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./js/recipe_mixer.js"></script>

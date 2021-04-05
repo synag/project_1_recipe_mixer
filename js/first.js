@@ -19,7 +19,7 @@ $(document).ready(function() {
                 window.location.href = "./second.html?ingredients=" + finalIngredientsArray.join(",");
             }
             // else {
-            //     alert ("please enter at least one applicable ingredient")
+            //     alert ("please enter at least one applicable ingredient")        //potential future applications
             //     break;
             // }      
         }
