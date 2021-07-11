@@ -5,7 +5,7 @@
 ## Description
 A simple web application that allows users to search ingredients and find recipes that can be made using those ingredients. Recipe results will show recipe name, picture and user will be able to click on the recipe and find ingredients and recipe instruction. 
 
-## Screen Shot
+## Screenshots
 
 ![Recipe Mixer](./images/screenshot.png)
 ![Recipe Mixer](./images/screenshot2.png)
